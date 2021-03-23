@@ -1,5 +1,52 @@
-div.circle_in_black{
-    width:80px;height:80px; 
+@font-face{
+    font-family: typewriter;
+    src:url(font、Compagnon-Light.otf) format('opentype'),
+}
+
+
+
+
+body{
+    margin:0 auto;
+}
+.main{
+    text-align: center;/*使元素水平居中 */            
+    vertical-align: middle;
+}
+
+div.circle_upper{
+    position: absolute;            
+    top: 50%;            
+    left: 50%;            
+    transform: translate(-50%, -50%);
+    width:calc(80vh);height:calc(80vh); 
     border-radius:999em;
     background-color:bisque;
+    text-align:center;
+
+}
+
+div.semi-circle {
+    /* position: fixed;   */
+	border-radius: calc(200vh) calc(200vh) 0 0;
+	height: calc(100vh);
+    background-color: red;
+}
+
+table{
+    position: absolute;            
+    top: 50%;            
+    left: 50%;            
+    transform: translate(-50%, -50%);
+    table-layout: fixed;
+    width:80%;
+    z-index:3;
+}
+.hi{
+    position: fixed;
+    left: 40%;
+    font-size:100px;
+    font-weight:550;
+    color:rgb(48, 48, 48)
+    
 }
