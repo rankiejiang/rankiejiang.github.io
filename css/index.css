@@ -21,8 +21,9 @@ div.circle_upper{
     transform: translate(-50%, -50%);
     width:calc(80vh);height:calc(80vh); 
     border-radius:999em;
-    background-color:bisque;
+    background-color:rgb(202, 202, 202);
     text-align:center;
+    opacity:0;
 
 }
 
@@ -35,7 +36,7 @@ div.semi-circle {
 
 table{
     position: absolute;            
-    top: 50%;            
+    top: 60%;            
     left: 50%;            
     transform: translate(-50%, -50%);
     table-layout: fixed;
@@ -50,3 +51,42 @@ table{
     color:rgb(48, 48, 48)
     
 }
+
+#fade_group{
+    opacity:0
+}
+
+
+/* fade in text
+#fade-text{
+font-family: 'Montserrat';
+color: rgb(32, 32, 32);
+opacity: 0.0;
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+} */
