@@ -13,7 +13,7 @@
 
     <title>
         
-        
+        test - undefined
         
     </title>
 
@@ -71,7 +71,7 @@
                     <span>TAGS</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/archives">
                     <i class="iconfont icon-guidang2"></i>
                     <span>ARCHIVES</span>
@@ -100,6 +100,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -127,50 +131,39 @@
         
 
 
-<!-- 归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        test
+    </div>
 
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2022">
-                    <span class="tag-text">2022</span>
-                </span>
-    <ul>
+    <div class="post-meta">
+        <span class="attr">Post：<span>2022-06-04 15:53:41</span></span>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-04</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2022/06/04/test/">
-                        <span>
-                            test
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
+        <span class="attr">Tags：/
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>06-03</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2022/06/03/hello-world/">
-                        <span>
-                            Hello World
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
+        <a class="tag" href="/tags/#first try" title="first try">first try</a>
+        <span>/</span>
         
+        <a class="tag" href="/tags/#diary" title="diary">diary</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content no-indent">
+        <p>Just random testing</p>
 
-    </ul>
-</div>
-
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+        <div id="lv-container"></div>
+        <div class="giscus"></div>
+    </div>
 </div>
 
     </div>
@@ -211,7 +204,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 
